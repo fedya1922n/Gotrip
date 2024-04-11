@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+body {
+    /* font-family: "Inter", sans-serif; */
+    font-family:   "Rubik", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+    width: 100%;
+    
+}
+
+.nav {
+    background: #3E8989;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu {
+    display: flex;
+    
+}
+
+.menu__link {
+    display: inline-block;
+    color: #fff;
+   font-size: 16px;
+   font-weight: 500;
+   margin:37px 0px 37px 30px ;
+   transition: 0.5s;
+   padding-bottom: 5px;
+   border-bottom: 2px solid transparent;
+
+}
+
+.menu__link:hover {
+    /* text-decoration: underline;
+    transition: 1s; */
+    border-bottom:2px solid #fff;
+}
+.header__content {
+    background-image: url(../img/pic.jpg);
+    min-height: 780px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__title {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.header__desc {
+    font-size: 40px;
+    font-weight: medium;
+    margin-bottom: 50px;
+}
+.header__button {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #B4436C;
+    padding: 14px 78px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.header__button:hover {
+    background: #fff;
+    color: #B4436C;
+}
+
+.title {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    color: #3E8989 ;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.about__img {
+    max-width: 545px;
+    width: 100%;
+}
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+
+}
+.about__wrap {
+    max-width: 545px;
+    width: 100%;
+    
+    
+}
+
+.about__desc {
+    font-size: 18px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+.card {
+    max-width: 263px;
+    width: 100%;
+    transition: 1s;
+}
+.catalog__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.card__box {
+   
+    background: #EFEFEF;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+.card:hover {
+    color: #B4436C;
+}
+
+.contacts__title {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    color: #3E8989 ;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.contacts__content {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__desc {
+    font-size: 20px;
+    max-width: 555px;
+}
+.contacts__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contacts__info {
+    font-size: 20px;
+    color: #000000;
+}
+
+.footer {
+    background: #3E8989;
+    margin-top: 104px;
+
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.footer__menu {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 59px;
+  
+}
+.footer__menu__link {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 30px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 51px;
+    
+}
+.search__inp {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    min-height: 35px;
+    max-width: 216px;
+    width: 100%;
+    color: #898989;
+   font-size: 16px;
+   padding: 8px 20px 8px 20px;
+   border: none;
+   outline: none;
+   font-family: "Rubik", sans-serif;
+}
+.search__btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #295E5E;
+    color: #ffff;
+    font-size: 14px;
+    padding: 9px 14px;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    
+   
+
+}
+.footer__content__desc {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+}

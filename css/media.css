@@ -1,0 +1,146 @@
+@media (max-width: 1200px) {
+    .container {
+      max-width: 960px;
+    }
+    .about__desc, .contacts__desc, .contacts__info {
+      font-size: 16px;
+    }
+    .about__content {
+      gap: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+      max-width: 720px;
+    }
+    .header__title {
+      font-size: 60px;
+    }
+    .about__content {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+      max-width: 540px;
+    }
+    .catalog__content {
+      justify-content: center;
+    }
+    .card__title {
+      margin-bottom: 10px;
+    }
+    .contacts__content {
+      flex-direction: column;
+    }
+    .contacts__wrap {
+      margin-top: 10px;
+    }
+    .footer__content {
+      flex-direction: column;
+    }
+    .footer__menu {
+      justify-content: center;
+    }
+    .search {
+      margin-top: 20px;
+    }
+}
+@media (max-width: 520px) {
+  .menu {
+    flex-direction: column;
+  }
+  .nav__content {
+    flex-direction: column;
+  }
+  .menu__link {
+    margin: 20px 0;
+  }
+  .header__title {
+    font-size: 40px;
+    
+  }
+  .header__desc {
+    font-size: 24px;
+  }
+  .header__button {
+    font-size: 14px;
+    padding: 10px 60px;
+  }
+  .logo__img {
+    margin-top: 10px;
+  }
+  .title {
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  .about__content {
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .about__desc {
+    font-size: 14px;
+  }
+  .catalog__content {
+    justify-content: center;
+    gap: 15px;
+  }
+  .card {
+    max-width: 180px;
+    width: 100%;
+  }
+  .card__box {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card__img {
+    width: 100%;
+  }
+  .card__title {
+    font-size: 18px;
+      }
+      .contacts__title {
+        font-size: 24px;
+        margin-top: 50px;
+         margin-bottom: 30px;
+      }
+      .contacts__content {
+        flex-direction: column;
+      }
+      .contacts__desc, .contacts__info {
+        font-size: 14px;
+      }
+      .contacts__wrap {
+        margin-top: 5px;
+      }
+      .footer__content {
+        flex-direction: column;
+      }
+      .footer__menu {
+        flex-direction: column;
+        justify-content: center;
+      }
+      .footer__menu__link {
+          margin: 10px 0;
+          text-align: center;
+          font-size: 12px;
+      }
+      .search__inp {
+        font-size: 12px;
+        padding: 4px 10px;
+        max-width: 170px;
+        width: 100%;
+      }
+      .search__btn {
+        font-size: 10px;
+        padding: 5px 7px;
+      }
+      .search {
+        padding-top: 20px;
+      }
+}
+
